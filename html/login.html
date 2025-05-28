@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../styles/login.css" rel="stylesheet" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="background">
+      <div class="shape"></div>
+      <div class="shape"></div>
+    </div>
+    <main>
+      <form>
+        <h1>Treffen House</h1>
+        <div>
+          <label>Username:</label>
+          <input
+            type="text"
+            id="username"
+            class="form-input"
+            required
+            placeholder="Username"
+          />
+        </div>
+        <div>
+          <div>
+            <label>Department</label>
+            <select>
+              <option value="F&B">F&B</option>
+              <option value="Accounts">Accounts</option>
+              <option value="HR">HR</option>
+              <option value="IT">IT</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <label>Password:</label>
+          <input
+            type="password"
+            id="password"
+            class="form-input"
+            required
+            placeholder="Password"
+          />
+        </div>
+        <button class="submit-button" id="submitButton">Login</button>
+      </form>
+    </main>
+    <!-- <footer>
+        <p>Hello testing!</p>
+    </footer> -->
+  </body>
+</html>
